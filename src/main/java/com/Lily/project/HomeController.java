@@ -41,8 +41,14 @@ public class HomeController {
 		return "home";
 	}
 	@RequestMapping(value = "/signup", method = RequestMethod.GET)
-	public ModelAndView getAbout(String name) {
+	public ModelAndView getSignup(String name) {
 		ModelAndView model = new ModelAndView("signup");
+		model.addObject("message");
+		return model;
+	}
+	@RequestMapping(value = "/login", method = RequestMethod.GET)
+	public ModelAndView getLogin(String name) {
+		ModelAndView model = new ModelAndView("login");
 		model.addObject("message");
 		return model;
 	}
