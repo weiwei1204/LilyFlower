@@ -38,7 +38,7 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
-		return "upload";
+		return "home";
 	}
 	@RequestMapping(value = "/signup", method = RequestMethod.GET)
 	public ModelAndView getSignup(String name) {
@@ -49,6 +49,12 @@ public class HomeController {
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public ModelAndView getLogin(String name) {
 		ModelAndView model = new ModelAndView("login");
+		model.addObject("message");
+		return model;
+	}
+	@RequestMapping(value = "/upload", method = RequestMethod.GET)
+	public ModelAndView getUpload(String name) {
+		ModelAndView model = new ModelAndView("upload");
 		model.addObject("message");
 		return model;
 	}
