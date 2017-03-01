@@ -34,7 +34,7 @@
 	<mvc:resources mapping="/fonts/**" location="/fonts/" />
 	<mvc:resources mapping="/img/**" location="/img/" />
 	<mvc:resources mapping="/images/**" location="/images/" />
-	<context:component-scan base-package="com.Lily.project" />
+	<context:component-scan base-package="com.Lily.project.controller" />
 	
 	
 	
