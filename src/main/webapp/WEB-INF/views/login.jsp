@@ -18,11 +18,11 @@
  <div class="container">
 
     <div class="row">
-    <div class="col-sm-5 col-md-5"></div>
-    <div class="col-xs-12 col-sm-2 col-md-2">
+    <div class="col-xs-5 col-sm-5 col-md-5"></div>
+    <div class="col-xs-2 col-sm-2 col-md-2">
     <center><h1 style="color: #3C3C3C">登入</h1></center> <br><br>   
     </div>
-    <div class="col-sm-5 col-md-5"></div>
+    <div class="col-xs-5 col-sm-5 col-md-5"></div>
     </div>
 
  		<div class="row">
@@ -51,7 +51,7 @@
     <div class="col-sm-5 col-md-5"></div>
     <div class="col-xs-12 col-sm-2 col-md-2">
         <div class="form__field">
-          <input type="submit" class="btn btn-primary" name="type" value="Sign In" style="border-color:#ab425a"></input>
+          <input type="submit" class="btn btn-primary" name="type" value="Sign In" style="border-color:#ab425a; backgrounf-color:#ab425a"></input>
         </div>
     </div>
     <div class="col-sm-5 col-md-5"></div>
