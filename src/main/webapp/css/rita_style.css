@@ -73,7 +73,8 @@ html {
 
 body {
   background-color: #FFFFFF;
-  
+   position: relative;
+
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-size: 0.875rem;
@@ -223,5 +224,37 @@ p {
 .tr_class{
   backbround-color:rgba(37, 30, 30, 0.22);
 }
+
+/********** login signup end **********/
+
+
+.btncolor {
+    color: #777;
+    background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+    border-color: #d5d5d5;
+}
+.btn-primary:hover {
+    color:#777;
+    background-color: #ddd;
+    border-color: #d5d5d5;
+    
+}
+
+.btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #66B3FF;
+    border-color:#0080FF;
+}
+
+.btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus {
+    color: #fff;
+   background-color: #66B3FF;
+    border-color: #0080FF;
+}
+
+.btn {
+  font-size: 20px;
+  padding: 12px 30px 12px;
+  }
 
 
