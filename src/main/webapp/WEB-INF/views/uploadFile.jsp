@@ -67,6 +67,15 @@ $(function (){
 					</select>
 			    </div>
 			 </div>
+			  <div class="form-group">
+				<div class="col-sm-2 control-label ">
+					<label  for="exampleInputEmail1">取樣時間</label>
+				</div>
+			    <div class="col-sm-7 control-label">
+			    	<input type="number" class="form-control" id="exampleInputEmail1" placeholder="取樣時間">
+			    </div>
+			    <div class="col-sm-2 control-label">小時</div>
+			 </div>
 			 <div class="form-group">
 				<div class="col-sm-2 control-label ">
 					<label  for="exampleInputEmail1">L</label>
