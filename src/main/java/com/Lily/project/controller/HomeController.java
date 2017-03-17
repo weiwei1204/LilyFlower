@@ -66,6 +66,7 @@ public class HomeController {
 		model.addObject("message");
 		return model;
 	}
+
 	 public String uploadImage(HttpServletRequest request,
 	            HttpServletResponse response, HttpSession session,
 	            @RequestParam(value = "file", required = true) MultipartFile file)
@@ -82,5 +83,13 @@ public class HomeController {
 	        String fileUrl = request.getContextPath() + "/upload/" + fileName;
 	        return fileUrl;
 	    }
+
+	@RequestMapping(value = "/detail", method = RequestMethod.GET)
+	public ModelAndView getDetail(String name) {
+		ModelAndView model = new ModelAndView("detail");
+		model.addObject("message");
+		return model;
+	}
+
 	
 }

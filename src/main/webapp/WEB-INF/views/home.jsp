@@ -24,37 +24,73 @@
 
 	<div class="row">
    	<div class="col-sm-0.5 col-md-0.5"></div>
-   	<div class="col-xs-12 col-sm-10 col-md-10">
+   	<div class="col-xs-6 col-sm-8 col-md-8">
     <div class="btn-group" data-toggle="buttons" >
       <label class="btn btn-primary active btncolor" >
         <input type="radio" name="options" id="option1" autocomplete="off" checked="">  全部all
       </label>
       <label class="btncolor btn btn-primary">
-        <input type="radio" name="options" id="option2" autocomplete="off"> 顏色分類
+        <input type="radio" name="options" id="option2" autocomplete="off"> 乾燥製程分類
       </label>
        <label class="btncolor btn btn-primary">
         <input type="radio" name="options" id="option3" autocomplete="off"> 日期分類
       </label>
       <label class="btncolor btn btn-primary">
-        <input type="radio" name="options" id="option4" autocomplete="off"> 上傳檔案
+        <input type="radio" name="options" id="option4" autocomplete="off"> 園區分類
       </label>
     </div>
     </div>
+      
+	<div class="col-xs-6 col-sm-2 col-md-2" >
+
+
+  <button type="button" class="btn btn-primary btn-sm">上傳照片</button>
+  <button type="button" class="btn btn-primary btn-sm">新增園區</button>
+  
+
+</div>
+
     <div class="col-sm-0.5 col-md-0.5"></div>
     </div>
   	
   	<div class="row" style="margin: 20px">
-   	<div class="col-sm-1.5 col-md-1.5"></div>
+   	
+    
+    
   	<div class="col-xs-12 col-sm-3 col-md-3">
-		<img src="..." alt="..." class="img-thumbnail">
+		<img src="img/001.JPG" alt="..." class="img-thumbnail">
   	</div>
   	<div class="col-sm-3 col-md-3">
-		<img src="..." alt="..." class="img-thumbnail">
+		<img src="img/002.jpg" alt="..." class="img-thumbnail">
   	</div>
   	<div class="col-sm-3 col-md-3">
-		<img src="..." alt="..." class="img-thumbnail">
+		<img src="img/003.jpg" alt="..." class="img-thumbnail">
   	</div>
-  	<div class="col-sm-1.5 col-md-1.5"></div>
+    <div class="col-sm-3 col-md-3">
+    <img src="img/004.jpg" alt="..." class="img-thumbnail">
+    </div>
+   
+    </div>
+    <div class="row" style="margin: 20px">
+   	
+    
+    
+  	<div class="col-xs-12 col-sm-3 col-md-3">
+		<img src="img/001.JPG" alt="..." class="img-thumbnail">
+  	</div>
+  	<div class="col-sm-3 col-md-3">
+		<img src="img/002.jpg" alt="..." class="img-thumbnail">
+  	</div>
+  	<div class="col-sm-3 col-md-3">
+		<img src="img/003.jpg" alt="..." class="img-thumbnail">
+  	</div>
+    <div class="col-sm-3 col-md-3">
+    <img src="img/004.jpg" alt="..." class="img-thumbnail">
+    </div>
+   
+    </div>
+    
+  	
   	</div>
   	
 </div>
