@@ -58,5 +58,11 @@ public class HomeController {
 		model.addObject("message");
 		return model;
 	}
+	@RequestMapping(value = "/detail", method = RequestMethod.GET)
+	public ModelAndView getDetail(String name) {
+		ModelAndView model = new ModelAndView("detail");
+		model.addObject("message");
+		return model;
+	}
 	
 }
