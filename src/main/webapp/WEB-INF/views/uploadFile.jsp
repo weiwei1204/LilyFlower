@@ -43,8 +43,8 @@ $(function (){
 	<div class="container">
 <form class="form-horizontal">
 	<div class="row" style="margin-top: 200px;">
-		<div class="col-md-3"></div>
-		<div class="col-md-6">
+		<div class="col-md-3 col-sm-0"></div>
+		<div class="col-md-6 col-sm-12">
 			<div class="form-group">
 				<div class="col-sm-2 control-label ">
 					<label  for="exampleInputEmail1">含水量</label>
@@ -116,7 +116,7 @@ $(function (){
 				</div>
 			  </div>
 		</div>
-		<div class="col-md-3"></div>
+		<div class="col-md-3 col-sm-0"></div>
 	</div>
 </form>
 

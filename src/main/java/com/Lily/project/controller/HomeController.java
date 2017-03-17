@@ -66,14 +66,12 @@ public class HomeController {
 		model.addObject("message");
 		return model;
 	}
-
 	@RequestMapping(value = "/exportexcel", method = RequestMethod.GET)
 	public ModelAndView getExportexcel(String name) {
 		ModelAndView model = new ModelAndView("exportexcel");
 		model.addObject("message");
 		return model;
 	}
-
 
 	 public String uploadImage(HttpServletRequest request,
 	            HttpServletResponse response, HttpSession session,
