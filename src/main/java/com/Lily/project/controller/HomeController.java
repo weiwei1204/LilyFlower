@@ -66,16 +66,12 @@ public class HomeController {
 		model.addObject("message");
 		return model;
 	}
-<<<<<<< HEAD
 	@RequestMapping(value = "/exportexcel", method = RequestMethod.GET)
 	public ModelAndView getExportexcel(String name) {
 		ModelAndView model = new ModelAndView("exportexcel");
 		model.addObject("message");
 		return model;
 	}
-	
-=======
-
 	 public String uploadImage(HttpServletRequest request,
 	            HttpServletResponse response, HttpSession session,
 	            @RequestParam(value = "file", required = true) MultipartFile file)
@@ -99,7 +95,7 @@ public class HomeController {
 		model.addObject("message");
 		return model;
 	}
->>>>>>> 502826ff470d4c9c363f7a8f3eb4a53c2e9bad36
+
 
 	
 }
