@@ -27,7 +27,7 @@
 	</div>
 
 	<div class="row">
-   	<div class="col-sm-0.5 col-md-0.5"></div>
+   
    	<div class="col-xs-6 col-sm-8 col-md-8">
     <div class="btn-group" data-toggle="buttons" >
       <label class="btn btn-primary active btncolor" >
@@ -45,7 +45,9 @@
     </div>
     </div>
       
-	<div class="col-xs-6 col-sm-2 col-md-2" >
+    <div class="col-sm-2 col-md-2"></div>
+
+	<div class="col-xs-6 col-sm-2 col-md-2" style="margin-top:10px; " >
 
 
   <button type="button" class="btn btn-primary btn-sm" style="border-image: ">上傳照片</button>
@@ -89,7 +91,6 @@
 
 </div>
  
-    <div class="col-sm-0.5 col-md-0.5"></div>
     </div>
   	<!-- heeader 按鈕 -->
 
